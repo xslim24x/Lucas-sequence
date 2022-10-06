@@ -1,0 +1,39 @@
+Jan 21. Lab Exercise  Due Jan 28, 2014
+
+The Lucas sequence is defined as 
+L1 = 1; L2 = 3; and 
+L(k+1) = L(k) + L(k-1) for k>2
+
+Write an assembly language program to list the first 
+50 terms in both Hex and Decimal:
+
+1 00000001  1
+2 00000003  3
+3 00000004  4
+4 00000007  7
+...
+50 ..........  ..........
+
+Requirements:
+
+Use ecx as the loop counter and the LOOP instruction
+Use WriteDec to display the sequence number 1,2,3...
+Use WriteHex and WriteDec to display the Lucas number.
+
+Use screen capture to make a file copy of your output.
+Hand in copies of your source file and the output.
+
+Something should go wrong. Don't worry, you'll fix it
+in the next assignment:  
+
+Modify your assembly language program
+to list the 1st to 150th Lucas numbers in Hex only
+
+After that:
+
+Modify your assembly language program
+to list the 1st to 150th Lucas numbers in 
+both Hex and Decimal
+
+
+
